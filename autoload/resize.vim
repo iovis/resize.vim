@@ -9,11 +9,13 @@ function! resize#down() abort
 endfunction
 
 function! resize#left() abort
-  silent! execute 'vertical resize -' . g:resize_vim_size
+  let l:sign = resize#is_edge('l') ? '+' : '-'
+  silent! execute 'vertical resize ' . l:sign . g:resize_vim_size
 endfunction
 
 function! resize#right() abort
-  silent! execute 'vertical resize +' . g:resize_vim_size
+  let l:sign = resize#is_edge('l') ? '-' : '+'
+  silent! execute 'vertical resize ' . l:sign . g:resize_vim_size
 endfunction
 
 function! resize#is_edge(direction) abort
