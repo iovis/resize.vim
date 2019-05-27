@@ -1,0 +1,54 @@
+*resize.txt*  Resize Vim splits like in Tmux
+
+Author:  David Marchante <https://github.com/iovis9>
+License: Same terms as Vim itself (see |license|)
+Version: 1.0 (2019-05-27)
+
+This plugin is only available if 'compatible' is not set.
+
+==============================================================================
+CONTENTS                                                     *resize-contents*
+
+1. Usage ................ |resize-usage|
+2. Customisation ........ |resize-customisation|
+3. Bugs ................. |resize-bugs|
+4. Changelog ............ |resize-changelog|
+
+==============================================================================
+USAGE                                                           *resize-usage*
+
+Map the movements and you'll be ready to go.
+>
+    nmap <m-up>    <Plug>ResizeUp
+    nmap <m-down>  <Plug>ResizeDown
+    nmap <m-left>  <Plug>ResizeLeft
+    nmap <m-right> <Plug>ResizeRight
+>
+
+==============================================================================
+CUSTOMISATION                                           *resize-customisation*
+
+------------------------------------------------------------------------------
+                                                       *g:resize_vim_vertical*
+Size of vertical jump (default 3)
+>
+    let g:resize_vim_vertical = 3
+>
+------------------------------------------------------------------------------
+                                                     *g:resize_vim_horizontal*
+Size of horizontal jump (default 6)
+  >
+    let g:resize_vim_horizontal = 6
+>
+==============================================================================
+BUGS                                                             *resize-bugs*
+
+Report any issues to https://github.com/iovis9/resize.vim/issues
+
+==============================================================================
+CHANGELOG                                                   *resize-changelog*
+
+Version 1.0: 2019-05-27
+- Initial release
+
+vim:tw=78:ts=8:ft=help:norl:
