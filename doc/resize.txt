@@ -1,6 +1,6 @@
 *resize.txt*  Resize Vim splits like in Tmux
 
-Author:  David Marchante <https://github.com/iovis9>
+Author:  David Marchante <https://github.com/iovis>
 License: Same terms as Vim itself (see |license|)
 Version: 1.0 (2019-05-27)
 
@@ -43,7 +43,7 @@ Size of horizontal jump (default 6)
 ==============================================================================
 BUGS                                                             *resize-bugs*
 
-Report any issues to https://github.com/iovis9/resize.vim/issues
+Report any issues to https://github.com/iovis/resize.vim/issues
 
 ==============================================================================
 CHANGELOG                                                   *resize-changelog*
